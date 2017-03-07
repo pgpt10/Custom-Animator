@@ -25,7 +25,9 @@ It handles the presenting of a view controller with custom transitions.
   3. Screen Insets
   4. Transition Type
 
-3. Back Drop View : Greyish view between presenting controller and the presented controller. It is optional to use Back Drop View.
+3. Back Drop View (optional) : Greyish view between presenting controller and the presented controller. It is optional to use Back Drop View.
+
+4. Dismiss on background tap (optional) : If the presented controller size is less than tha screen size, it can be dismissed on the background tap as well.
 
 ## How to use
 
