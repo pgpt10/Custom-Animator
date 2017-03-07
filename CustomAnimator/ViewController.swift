@@ -25,30 +25,41 @@ class ViewController: UIViewController
     @IBAction func presentFromBottom(_ sender: UIButton)
     {
         secondController.transitionType = .pushFromBottom
-        self.present(secondController, animated: true, completion: nil)
+        sender.backgroundColor = UIColor.red
+        self.present(secondController, animated: true, completion: {
+            sender.backgroundColor = UIColor.lightGray
+        })
     }
     
     @IBAction func presentFromTop(_ sender: UIButton)
     {
         secondController.transitionType = .pushFromTop
-        self.present(secondController, animated: true, completion: nil)
-    }
+        sender.backgroundColor = UIColor.red
+        self.present(secondController, animated: true, completion: {
+            sender.backgroundColor = UIColor.lightGray
+        })    }
     
     @IBAction func presentFromLeft(_ sender: UIButton)
     {
         secondController.transitionType = .pushFromLeft
-        self.present(secondController, animated: true, completion: nil)
-    }
+        sender.backgroundColor = UIColor.red
+        self.present(secondController, animated: true, completion: {
+            sender.backgroundColor = UIColor.lightGray
+        })    }
     
     @IBAction func presentFromRight(_ sender: UIButton)
     {
         secondController.transitionType = .pushFromRight
-        self.present(secondController, animated: true, completion: nil)
-    }
+        sender.backgroundColor = UIColor.red
+        self.present(secondController, animated: true, completion: {
+            sender.backgroundColor = UIColor.lightGray
+        })    }
     
     @IBAction func presentFromCenter(_ sender: UIButton)
     {
         secondController.transitionType = .zoom
-        self.present(secondController, animated: true, completion: nil)
-    }
+        sender.backgroundColor = UIColor.red
+        self.present(secondController, animated: true, completion: {
+            sender.backgroundColor = UIColor.lightGray
+        })    }
 }
