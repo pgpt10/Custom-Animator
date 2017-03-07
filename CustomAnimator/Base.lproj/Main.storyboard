@@ -24,7 +24,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBA-bt-vs1">
                                 <rect key="frame" x="131.5" y="35" width="111" height="111.5"/>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.30980392159999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.13314434959999999" green="0.52931202769999997" blue="0.72336632010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dBA-bt-vs1" secondAttribute="height" multiplier="1:1" id="vbx-md-zJ5"/>
                                 </constraints>
@@ -37,7 +37,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYZ-xD-4UU">
                                 <rect key="frame" x="131.5" y="161.5" width="111" height="111.5"/>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.30980392159999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.13314434959999999" green="0.52931202769999997" blue="0.72336632010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Top">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -47,7 +47,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kia-hL-K3O">
                                 <rect key="frame" x="131.5" y="288" width="111" height="111"/>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.30980392159999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.13314434959999999" green="0.52931202769999997" blue="0.72336632010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Left">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -57,7 +57,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev0-Xs-vJe">
                                 <rect key="frame" x="131.5" y="414" width="111" height="111.5"/>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.30980392159999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.13314434959999999" green="0.52931202769999997" blue="0.72336632010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Right">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -67,7 +67,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsl-sK-1sT">
                                 <rect key="frame" x="131.5" y="540.5" width="111" height="111.5"/>
-                                <color key="backgroundColor" red="0.074509803920000006" green="0.30980392159999998" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.13314434959999999" green="0.52931202769999997" blue="0.72336632010000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Center">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -122,14 +122,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxL-Fn-6Lo">
-                                <rect key="frame" x="168" y="28" width="39" height="30"/>
-                                <state key="normal" title="Close"/>
+                                <rect key="frame" x="166.5" y="28" width="42" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="dismissController:" destination="xr6-xk-5MV" eventType="touchUpInside" id="O86-ld-9Nl"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.13314434956233517" green="0.52931202770025876" blue="0.72336632013320923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="xUa-Nl-3pr" firstAttribute="centerX" secondItem="KUd-S6-4Ic" secondAttribute="centerX" id="HdC-Nm-gM0"/>
                             <constraint firstItem="CxL-Fn-6Lo" firstAttribute="top" secondItem="dR7-V7-37U" secondAttribute="bottom" constant="8" id="Xbq-eD-P6n"/>

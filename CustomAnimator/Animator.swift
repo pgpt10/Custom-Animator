@@ -17,8 +17,8 @@
     b) animationControllerForDismissedController
     c) presentationControllerForPresentedViewController
  
- 3. Set "transitioningDelegate" property of NNController to "self"
- 4. Set "modalPresentationStyle" property of NNController to ".Custom"
+ 3. Set "transitioningDelegate" property of Controller to "self"
+ 4. Set "modalPresentationStyle" property of Controller to ".Custom"
  */
 
 import UIKit
@@ -43,7 +43,6 @@ final class Animator: NSObject
     var transitionType : TransitionType = .pushFromBottom
     //You can set any one out size/inset according to your requirement
     var size : CGSize = UIScreen.main.bounds.size
-    var roundedCorners:Bool = false
     var insets : UIEdgeInsets{
         set{
             self.size = CGSize(width: UIScreen.main.bounds.width - newValue.left - newValue.right, height: UIScreen.main.bounds.height - newValue.top - newValue.bottom)
@@ -96,10 +95,6 @@ extension Animator : UIViewControllerAnimatedTransitioning
         
         if self.presenting
         {
-            if roundedCorners {
-                animatingView?.layer.cornerRadius = 0.5
-                animatingView?.layer.masksToBounds = true
-            }
             animatingView?.center = self.getCenter(containerView)
             containerView.addSubview(animatingView!)
         }

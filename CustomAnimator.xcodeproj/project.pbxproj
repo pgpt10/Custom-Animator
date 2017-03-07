@@ -60,12 +60,12 @@
 			children = (
 				BD5800121E6E79BC002320A1 /* AppDelegate.swift */,
 				BD5800141E6E79BC002320A1 /* ViewController.swift */,
+				BD5800261E6E7E34002320A1 /* SecondViewController.swift */,
 				BD5800241E6E79D2002320A1 /* Animator.swift */,
 				BD5800161E6E79BC002320A1 /* Main.storyboard */,
 				BD5800191E6E79BC002320A1 /* Assets.xcassets */,
 				BD58001B1E6E79BC002320A1 /* LaunchScreen.storyboard */,
 				BD58001E1E6E79BC002320A1 /* Info.plist */,
-				BD5800261E6E7E34002320A1 /* SecondViewController.swift */,
 			);
 			path = CustomAnimator;
 			sourceTree = "<group>";

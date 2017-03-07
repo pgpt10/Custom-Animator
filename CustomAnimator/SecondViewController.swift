@@ -42,6 +42,8 @@ extension SecondViewController : UIViewControllerTransitioningDelegate
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning?
     {
         self.animator.transitionType = self.transitionType
+        self.animator.insets = UIEdgeInsets.init(top: 30, left: 30, bottom: 30, right: 30)
+        self.animator.duration = 0.5
         return self.animator
     }
     
