@@ -3,6 +3,9 @@ Custom View Controller Transitioner
 
 It handles the presenting of a view controller with custom transitions.
 
+## Preview
+<img src="https://github.com/pgpt10/Custom-Animator/blob/master/Demo.gif"  width='300' height='534' alt="Preview gif">
+
 ## Requirements
 
 * Swift 3.0
